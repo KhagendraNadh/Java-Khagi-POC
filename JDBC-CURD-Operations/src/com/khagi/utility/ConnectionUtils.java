@@ -20,7 +20,7 @@ public class ConnectionUtils {
 			System.out.println("Connection Established Successfully....");
 			System.out.println("Testing Commit");
 		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
+			System.error.println(e.getMessage());
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}		
